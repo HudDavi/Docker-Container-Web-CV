@@ -1,0 +1,16 @@
+{
+  "name": "docker-container-web",
+  "version": "1.0.0",
+  "description": "API Docker Container Web",
+  "main": "app/index.js",
+  "author": "Hudson Davi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
