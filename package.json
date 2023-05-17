@@ -1,13 +1,15 @@
 {
-  "name": "docker-container-web",
+  "name": "docker-container-web-cv",
   "version": "1.0.0",
-  "description": "API Docker Container Web",
+  "description": "API Docker Container Web CV",
   "main": "app/index.js",
-  "author": "Hudson Davi",
-  "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "node app/index.js"
   },
+  "keywords": [],
+  "author": "Hudson Davi",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
